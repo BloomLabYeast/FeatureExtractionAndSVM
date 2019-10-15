@@ -13,15 +13,8 @@ function s = runSVM(cse4_table_matfile, nuf2_table_matfile, columns_to_keep)
 %       compiled, and rotated GFP-NUF2 images.
 %
 %       columns_to_keep : An array variable specificing which columns to
-%       keep in when training the SVM. If using the "reordered" tables:
-%           1. Spot Height (nm)
-%           2. Distance to spindle pole body (normalized to spindle length)
-%           3. Standard Deviation of signal intensity in X (parallel to
-%           spindle)
-%           4. Standard Deviation of signal intensity in Y (perpindicular
-%           to spindle)
-%           5. Kinetochore to Kinetochore Distance (normalized to spindle
-%           length)
+%       keep in when training the SVM.
+%
 %   output :
 %       s : A structural array contianing the following fields:
 %
